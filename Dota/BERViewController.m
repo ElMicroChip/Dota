@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 LaMicroTienda. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BERViewController.h"
 
 @interface ViewController ()
 
@@ -18,8 +18,11 @@
 {
     [super viewDidLoad];
     
-    UIAlertView * alerta = [[UIAlertView Alloc] initWithTitle:@"Esdte es un titulo" message:@"Este sera el msj" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles: nil];
-                             
+    UIAlertView * alerta = [[UIAlertView alloc] initWithTitle:@"Este es un titulo" message:@"Este sera el msj" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles: nil];
+    
+    
+    
+    [alerta show];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

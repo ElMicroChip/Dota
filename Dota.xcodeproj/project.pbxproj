@@ -16,7 +16,7 @@
 		5EAB0AE619A2E67B001CFB34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB0AE519A2E67B001CFB34 /* main.m */; };
 		5EAB0AEA19A2E67B001CFB34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB0AE919A2E67B001CFB34 /* AppDelegate.m */; };
 		5EAB0AED19A2E67B001CFB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB0AEB19A2E67B001CFB34 /* Main.storyboard */; };
-		5EAB0AF019A2E67B001CFB34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB0AEF19A2E67B001CFB34 /* ViewController.m */; };
+		5EAB0AF019A2E67B001CFB34 /* BERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB0AEF19A2E67B001CFB34 /* BERViewController.m */; };
 		5EAB0AF219A2E67B001CFB34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB0AF119A2E67B001CFB34 /* Images.xcassets */; };
 		5EAB0AF919A2E67B001CFB34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAB0AF819A2E67B001CFB34 /* XCTest.framework */; };
 		5EAB0AFA19A2E67B001CFB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAB0AD919A2E67B001CFB34 /* Foundation.framework */; };
@@ -51,8 +51,8 @@
 		5EAB0AE819A2E67B001CFB34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EAB0AE919A2E67B001CFB34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5EAB0AEC19A2E67B001CFB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5EAB0AEE19A2E67B001CFB34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EAB0AEF19A2E67B001CFB34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EAB0AEE19A2E67B001CFB34 /* BERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BERViewController.h; sourceTree = "<group>"; };
+		5EAB0AEF19A2E67B001CFB34 /* BERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BERViewController.m; sourceTree = "<group>"; };
 		5EAB0AF119A2E67B001CFB34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5EAB0AF719A2E67B001CFB34 /* DotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAB0AF819A2E67B001CFB34 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -106,8 +106,8 @@
 		5E9DA27E19A59E61008D692D /* PantallaPrincipal */ = {
 			isa = PBXGroup;
 			children = (
-				5EAB0AEE19A2E67B001CFB34 /* ViewController.h */,
-				5EAB0AEF19A2E67B001CFB34 /* ViewController.m */,
+				5EAB0AEE19A2E67B001CFB34 /* BERViewController.h */,
+				5EAB0AEF19A2E67B001CFB34 /* BERViewController.m */,
 			);
 			name = PantallaPrincipal;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EAB0AF019A2E67B001CFB34 /* ViewController.m in Sources */,
+				5EAB0AF019A2E67B001CFB34 /* BERViewController.m in Sources */,
 				5E9DA27819A59DF4008D692D /* BERNoPuedesViewController.m in Sources */,
 				5EAB0AEA19A2E67B001CFB34 /* AppDelegate.m in Sources */,
 				5E9DA27B19A59E30008D692D /* BERSiPuedesViewController.m in Sources */,
