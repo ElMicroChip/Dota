@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E9DA27819A59DF4008D692D /* BERNoPuedesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DA27719A59DF4008D692D /* BERNoPuedesViewController.m */; };
+		5E9DA27B19A59E30008D692D /* BERSiPuedesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DA27A19A59E30008D692D /* BERSiPuedesViewController.m */; };
 		5EAB0ADA19A2E67B001CFB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAB0AD919A2E67B001CFB34 /* Foundation.framework */; };
 		5EAB0ADC19A2E67B001CFB34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAB0ADB19A2E67B001CFB34 /* CoreGraphics.framework */; };
 		5EAB0ADE19A2E67B001CFB34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAB0ADD19A2E67B001CFB34 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E9DA27619A59DF4008D692D /* BERNoPuedesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BERNoPuedesViewController.h; sourceTree = "<group>"; };
+		5E9DA27719A59DF4008D692D /* BERNoPuedesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BERNoPuedesViewController.m; sourceTree = "<group>"; };
+		5E9DA27919A59E30008D692D /* BERSiPuedesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BERSiPuedesViewController.h; sourceTree = "<group>"; };
+		5E9DA27A19A59E30008D692D /* BERSiPuedesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BERSiPuedesViewController.m; sourceTree = "<group>"; };
 		5EAB0AD619A2E67B001CFB34 /* Dota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAB0AD919A2E67B001CFB34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5EAB0ADB19A2E67B001CFB34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E9DA27C19A59E4A008D692D /* Si */ = {
+			isa = PBXGroup;
+			children = (
+				5E9DA27919A59E30008D692D /* BERSiPuedesViewController.h */,
+				5E9DA27A19A59E30008D692D /* BERSiPuedesViewController.m */,
+			);
+			name = Si;
+			sourceTree = "<group>";
+		};
+		5E9DA27D19A59E52008D692D /* No */ = {
+			isa = PBXGroup;
+			children = (
+				5E9DA27619A59DF4008D692D /* BERNoPuedesViewController.h */,
+				5E9DA27719A59DF4008D692D /* BERNoPuedesViewController.m */,
+			);
+			name = No;
+			sourceTree = "<group>";
+		};
+		5E9DA27E19A59E61008D692D /* PantallaPrincipal */ = {
+			isa = PBXGroup;
+			children = (
+				5EAB0AEE19A2E67B001CFB34 /* ViewController.h */,
+				5EAB0AEF19A2E67B001CFB34 /* ViewController.m */,
+			);
+			name = PantallaPrincipal;
+			sourceTree = "<group>";
+		};
 		5EAB0ACD19A2E67B001CFB34 = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +148,9 @@
 				5EAB0AE819A2E67B001CFB34 /* AppDelegate.h */,
 				5EAB0AE919A2E67B001CFB34 /* AppDelegate.m */,
 				5EAB0AEB19A2E67B001CFB34 /* Main.storyboard */,
-				5EAB0AEE19A2E67B001CFB34 /* ViewController.h */,
-				5EAB0AEF19A2E67B001CFB34 /* ViewController.m */,
+				5E9DA27C19A59E4A008D692D /* Si */,
+				5E9DA27D19A59E52008D692D /* No */,
+				5E9DA27E19A59E61008D692D /* PantallaPrincipal */,
 				5EAB0AF119A2E67B001CFB34 /* Images.xcassets */,
 				5EAB0AE019A2E67B001CFB34 /* Supporting Files */,
 			);
@@ -250,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EAB0AF019A2E67B001CFB34 /* ViewController.m in Sources */,
+				5E9DA27819A59DF4008D692D /* BERNoPuedesViewController.m in Sources */,
 				5EAB0AEA19A2E67B001CFB34 /* AppDelegate.m in Sources */,
+				5E9DA27B19A59E30008D692D /* BERSiPuedesViewController.m in Sources */,
 				5EAB0AE619A2E67B001CFB34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +492,7 @@
 				5EAB0B0A19A2E67B001CFB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EAB0B0B19A2E67B001CFB34 /* Build configuration list for PBXNativeTarget "DotaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				5EAB0B0D19A2E67B001CFB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
