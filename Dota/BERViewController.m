@@ -18,13 +18,46 @@
 {
     [super viewDidLoad];
     
-    UIAlertView * alerta = [[UIAlertView alloc] initWithTitle:@"Este es un titulo" message:@"Este sera el msj" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles: nil];
+    UIAlertView * alerta = [[UIAlertView alloc] initWithTitle:@"Introduce" message:@"Tu Usuario y Contraseña" delegate:self cancelButtonTitle:@"Aceptar" otherButtonTitles: nil];
     
     
-    
+    alerta.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
     [alerta show];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    
+    if (buttonIndex==0) {
+        NSLog(@"El Login es %@", [alertView textFieldAtIndex:0].text);
+    }
+    
+    
+    if (buttonIndex==0) {
+        NSLog(@"La Contraseña es %@", [alertView textFieldAtIndex:1].text);
+    }
+
+
+
+    
+    
+    if ([[alertView textFieldAtIndex:0].text isEqualToString:@"PEPE"] && [[alertView textFieldAtIndex:1].text isEqualToString:@"123"]) {
+        BERSiPuedesViewController * controller = [self.storyboard instantiateViewControllerWithIdentifier:@"SiPuedes"];
+        controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        [self presentViewController:controller animated:YES completion:nil];
+        
+    } else {
+        
+        
+        BERSiPuedesViewController * controller = [self.storyboard instantiateViewControllerWithIdentifier:@"NoPuedes"];
+        controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        [self presentViewController:controller animated:YES completion:nil];
+    }
+
+
+
+}
+
 
 - (void)didReceiveMemoryWarning
 {

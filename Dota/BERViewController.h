@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BERNoPuedesViewController.h"
+#import "BERSiPuedesViewController.h"
 
 @interface ViewController : UIViewController <UIAlertViewDelegate>
 

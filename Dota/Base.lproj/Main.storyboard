@@ -50,7 +50,7 @@
         <!--No Puedes View Controller-->
         <scene sceneID="ScT-Bi-Eam">
             <objects>
-                <viewController id="xUV-hz-K5W" customClass="BERNoPuedesViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoPuedes" id="xUV-hz-K5W" customClass="BERNoPuedesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sx9-rG-fzQ"/>
                         <viewControllerLayoutGuide type="bottom" id="0Fh-dR-h30"/>
@@ -94,7 +94,7 @@
         <!--Si Puedes View Controller-->
         <scene sceneID="4tm-gq-dLD">
             <objects>
-                <viewController id="0Qa-3h-DG6" customClass="BERSiPuedesViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SiPuedes" id="0Qa-3h-DG6" customClass="BERSiPuedesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dmk-UI-hs5"/>
                         <viewControllerLayoutGuide type="bottom" id="JxW-K9-wdq"/>
