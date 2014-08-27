@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B5CEA55A-B1AD-472E-86E3-8AC44F856FEA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dota</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B874DA6F-E30A-438B-A0CD-BA99862952A3</key>
+		<string>https://github.com/ElMicroChip/Dota.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dota.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B874DA6F-E30A-438B-A0CD-BA99862952A3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ElMicroChip/Dota.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B874DA6F-E30A-438B-A0CD-BA99862952A3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B874DA6F-E30A-438B-A0CD-BA99862952A3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dotah</string>
+		</dict>
+	</array>
+</dict>
+</plist>
